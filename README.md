@@ -1,7 +1,7 @@
-#GNS3 Lab
+# GNS3 Lab
 
 2026年4月-5月
-##GNS3を使ってネットワーク構成を自分で作ってみたいと考え環境構築に取り掛かったがwindows11のセキュリティが強すぎてhyper-vを無効かできずVMwareやVboxが使えず構築に苦戦
+## GNS3を使ってネットワーク構成を自分で作ってみたいと考え環境構築に取り掛かったがwindows11のセキュリティが強すぎてhyper-vを無効かできずVMwareやVboxが使えず構築に苦戦
 試したこと
 windowsセキュリティでコア分離無効化
 windowsの機能の有効化または無効化
@@ -15,7 +15,7 @@ bcdedit /set hypervisorlaunchtype off
 改善見られず
 
 
-##2026年6月
+## 2026年6月
 WSLでの構築ならmicrosoftが作っているツールなのでhyper-vと共存できるのでは？と考え実施-->gns3とgns3serverの連携に成功
 vyosのインポート作業に着手
 無事vyosの起動確認
